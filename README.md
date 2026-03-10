@@ -1,18 +1,20 @@
 # sim4comp simulation study
 
-Training and testing of different machine learning algorithms over different scenarios!
+Training and testing different machine learning algorithms across multiple scenarios!
 
-## Project
+## Project structure
 
-The project consists of the following two main scripts:
+The project consists of the following three main scripts:
 
 -   `gendata_function.R`: containing the DGP.
 
--   `main.R`: containing the data simulation, the models deployment and the results plotting.
+-   `main.R`: runs the data simulation and trains the models.
+
+-   `charts.R`: generates the plots of the results.
 
 ## Prerequisites
 
--   R software (recent version, I used R 4.5.2)
+-   R software (recent version, tested with R 4.5.2)
 
 -   RStudio
 
@@ -22,6 +24,6 @@ The project consists of the following two main scripts:
 
 2.  Open `sim4comp.Rproj` in RStudio;
 
-3.  Run `renv::restore()` in the RStudio Console to install the packages;
+3.  Run `renv::restore()` in the RStudio Console to install the  required packages;
 
-4.  Run `main.R` first and `charts.R` later or, alternatively, just `charts.R` using the data already available in `final.results`.
+4.  Run `main.R` first and then `charts.R`. Alternatively, you can run only `charts.R` using the data already available in `final.results`.
