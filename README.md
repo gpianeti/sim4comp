@@ -27,3 +27,5 @@ The project consists of the following three main scripts:
 3.  Run `renv::restore()` in the RStudio Console to install the  required packages;
 
 4.  Run `main.R` first and then `charts.R`. Alternatively, you can run only `charts.R` using the data already available in `final.results`.
+
+## You can find more info in the `sim4comp_report.pdf` file
